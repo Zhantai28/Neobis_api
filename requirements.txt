@@ -6,9 +6,11 @@ charset-normalizer==2.0.4
 click==8.0.1
 colorama==0.4.4
 concurrent-log-handler==0.9.9
+dj-database-url==0.5.0
 Django==3.2.6
 django-cors-headers==3.7.0
 django-filter==2.4.0
+django-heroku==0.3.1
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.7.2
 elasticsearch==7.13.4
@@ -34,3 +36,4 @@ sqlparse==0.4.1
 tomli==1.2.0
 tomorrow3==1.1.0
 urllib3==1.26.6
+whitenoise==5.3.0

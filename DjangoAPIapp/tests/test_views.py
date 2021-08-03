@@ -19,3 +19,7 @@ class RegisterTests(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(User.objects.count(), 1)
         self.assertEqual(User.objects.get().username, "zhantai")
+
+    def test_product_list(self):
+        response = self.client.get(reverse("products"))
+        self.assertEquals(response.status_code, 200)
